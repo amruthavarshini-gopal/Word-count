@@ -38,15 +38,20 @@ Giving print statement for getting output
 
 ## PROGRAM:
 ```
+#Program to find the Word Count
+#Developed by: Amruthavarshini Gopal
+#RegisterNumber: 23000851
+
 num=0
 with open("/content/quote.txt","r") as f:
   for i in f:
     words=i.split()
     num=num+len(words)
 print("Total number of words in the file is:",num)
+
 ```
-### OUTPUT:
-![Alt text](countword.png)
+## OUTPUT:
+![Alt text](countword1.png)
 
 ## RESULT:
 
